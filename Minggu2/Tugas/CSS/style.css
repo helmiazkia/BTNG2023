@@ -41,20 +41,22 @@ nav li a{
 #home {
     display: flex;
     background-color: #0a0a0a;
+    
 }
-#home .container .header{
+#home .header{
     font-family: poppins;
     color: #7456FF;
     margin-top: 80px;
+    margin-left: 50px;
   
 }
-#home .container .header .header1{
+#home  .header .header1{
     font-size: 32px;
     color: #FFFFFF;
 
 }
-#home .container .header .header2,
-#home .container .header .header3
+#home  .header .header2,
+#home  .header .header3
 {
     display: inline-block; 
     margin: 0px;
@@ -90,9 +92,9 @@ nav li a{
 ::-webkit-scrollbar-thumb:hover {
     background: #555; 
 }
-#home .container .header img {
+#home .header img {
     margin-left: 700px; /* Mengatur agar gambar berada di sebelah kanan */
-    margin-top: -520px;
+    margin-top: -480px;
     width: 450px;    
     height: auto; 
 }
@@ -106,9 +108,10 @@ nav li a{
     margin-top: 50px;
     margin-right: 670px;
 }
-.button {
-    margin-top: -100px;
-    
+.button{
+    position:absolute;
+    margin-left: 49px;
+    margin-top: 510px;
 }
 
 .button button {
@@ -129,10 +132,24 @@ nav li a{
 
 .button button:last-child {
     text-align: center;
-    
     background-color: transparent; /* Agar transparan */
     color: #FFFFFF; /* Warna teks hitam */
     border: 1px solid #FFFFFF; /* Garis hitam pada tombol kedua */
+}
+
+.find p {
+    color: #FFFFFF;
+    font-family: poppins;
+    margin-top: 630px;
+    margin-left: -450px;
+    display: flex;
+    font-size: 20px;
+}
+.find a{
+    margin-top: -12px;
+    margin-right: 15px;
+    margin-left: 15px;
+    
 }
 
 
