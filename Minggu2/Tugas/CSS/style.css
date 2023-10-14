@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+}
+
+nav{
+    background-color: #0F0F0F;
+    padding-block: 30px;
+}
+nav .container{
+    display: flex;
+
+}
+.container{
+    margin-inline: 50px;
+}
+.Logo{
+    font-family: poppins;
+    font-size: 26px;
+  
+}
+.Logo .text1{
+    color: #7456FF;
+}
+.Logo .text2{
+    color: #F0F0F0;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: auto;
+}
+nav li a{
+    color: #FFFFFF;
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 20px;
+    margin-inline: 10px;
+    margin-right: 20px;
+}
+#home {
+    display: flex;
+    background-color: #0a0a0a;
+}
+#home .container .header{
+    font-family: poppins;
+    color: #7456FF;
+    margin-top: 80px;
+  
+}
+#home .container .header .header1{
+    font-size: 32px;
+    color: #FFFFFF;
+
+}
+#home .container .header .header2,
+#home .container .header .header3
+{
+    display: inline-block; 
+    margin: 0px;
+    font-size: 52px;
+}
+.header2{
+    color: #FFFFFF;
+}
+.header4{
+    font-size: 20px;
+    color: #999999;
+    font-family: poppins;
+    margin-top: 10px;
+    
+}
+/* Width */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #201f1f; 
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #393939; 
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+#home .container .header img {
+    margin-left: 700px; /* Mengatur agar gambar berada di sebelah kanan */
+    margin-top: -520px;
+    width: 450px;    
+    height: auto; 
+}
+.paragraf{
+    color: #999999;
+    font-family: poppins;
+    text-align: left; /* Pusatkan teks */
+    margin: 100px 0; /* Atur jarak atas dan bawah paragraf */
+    line-height: 1.6; /* Atur jarak antar baris */
+    text-align: justify;
+    margin-top: 50px;
+    margin-right: 670px;
+}
+.button {
+    margin-top: -100px;
+    
+}
+
+.button button {
+    border: 1px solid transparent; /* Agar lebih transparan dan bergaris */
+    width: 178px;
+    height: 50px;
+    margin: 10px; /* Sesuaikan margin sesuai kebutuhan */
+    border-radius: 5px; /* Agar bingkai kotak */
+    font-size: 16px; /* Sesuaikan ukuran font sesuai kebutuhan */
+    margin-left: 2px;
+    
+}
+
+.button button:first-child {
+    background-color: #7456FF; /* Warna biru untuk tombol pertama */
+    color: #FFFFFF/* Warna teks putih */
+}
+
+.button button:last-child {
+    text-align: center;
+    
+    background-color: transparent; /* Agar transparan */
+    color: #FFFFFF; /* Warna teks hitam */
+    border: 1px solid #FFFFFF; /* Garis hitam pada tombol kedua */
+}
+
+
