@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-color: rgb(218, 204, 240);
+    font-family:'Poppins', sans-serif;
+    color: #2D2D2D;
+    font-size: 14px;
+}
+/*navbar*/
+/*mengubah di tampilan mobile*/
+@media screen and (min-width: 994px) {
+.form-control{
+    width: 350px;
+}
+
+}
+}
+/*kalau navbar di ukran 994 akan di tengah*/
+@media screen and (max-width: 994px) {
+.navbar-nav{
+        text-align: center;
+    }
+    }
+nav{
+    background: rgb(2, 2, 48);
+    
+}
+.carusel-inner{
+    image-resolution: 8px;
+    
+}
+/*akhir navbar*/
+.kotak-bradcrumb{
+    border-radius: 10px;
+    margin-top: 3mm;
+}
+/*gambar produk*/
+.row-produk{
+    background-color: #fff;
+    margin: 0;
+    padding: 5px;
+    padding-top: 16px ;
+    border-radius: 10px;
+}
+/*akhir gambar produk*/
+/*Garis nama*/
+.garis-nama{
+    border-bottom: 2px solid #2D2D2D;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+/*Akhir garis nama*/
+
+/*kernjang dan beli*/
+.btn-custom{
+    padding: 15px;
+    font-size: 14px;
+}
+/*akhir*/
