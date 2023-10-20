@@ -1,0 +1,72 @@
+ <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Daftar</title>
+    <!---Custom CSS File--->
+    <link rel="stylesheet" href="/css/register.css" />
+    <link rel="shortcut icon" href="/gamabar/favicon.jpg" type="image/x-icon">
+  </head>
+  <body>
+    <section class="container">
+      <header>Daftar</header>
+      <form action="#" class="form">
+        <div class="input-box">
+          <label>Nama</label>
+          <input type="text" placeholder="Nama" required />
+        </div>
+
+        <div class="input-box">
+          <label>E-mail</label>
+          <input type="text" placeholder="E-mail" required />
+        </div>
+
+        <div class="column">
+          <div class="input-box">
+            <label>Nomer hp</label>
+            <input type="number" placeholder="phone number" required />
+          </div>
+          <div class="input-box">
+            <label>Tanggal lahir</label>
+            <input type="date" placeholder="Tanggal lahir" required />
+          </div>
+        </div>
+        <div class="Jenis kelamin-box">
+          <h3>Jenis kelamin</h3>
+          <div class="Jenis kelamin-option">
+            <div class="Jenis kelamin">
+              <input type="radio" id="check-male" name="Jenis kelamin" checked />
+              <label for="check-male">Laki-Laki</label>
+            </div>
+            <div class="Jenis kelamin">
+              <input type="radio" id="check-female" name="Jenis kelamin" />
+              <label for="check-female">Perempuan</label>
+            </div>
+          </div>
+        </div>
+        <div class="input-box address">
+          <div class="column">
+            <div class="select-box">
+              <select>
+                <option hidden>Negara asal</option>
+                <option>America</option>
+                <option>Japan</option>
+                <option>India</option>
+                <option>Indonesia</option>
+              </select>
+            </div>
+            <input type="text" placeholder="Kota asal" required />
+          </div>
+          <div class="column">
+            <input type="number" placeholder="Enter code" required />
+          </div>
+        </div>
+        <button>Daftart</button>
+      </form>
+    </section>
+  </body>
+</html>
+
+ 

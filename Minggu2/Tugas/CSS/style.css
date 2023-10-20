@@ -127,7 +127,7 @@ nav li a{
 
 .button button:first-child {
     background-color: #7456FF; /* Warna biru untuk tombol pertama */
-    color: #FFFFFF/* Warna teks putih */
+    color: #FFFFFF;/* Warna teks putih */
 }
 
 .button button:last-child {
